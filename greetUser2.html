@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Hello, <span id="name">User</span></h1>
+
+<ul>
+    <li>Kwame</li>
+    <li>Kofi</li>
+</ul>
+
+<script >
+const name = prompt("What is your name? ");
+document.getElementById("name").innerHTML = name;
+  // adds the className .name properties to ID #name 
+document.getElementById("name").classList.add("name");
+</script>
+</body>
+</html>
